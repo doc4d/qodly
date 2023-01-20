@@ -66,7 +66,7 @@ const config = {
         title: 'Qodly docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/qodly-logo.png',
         },
         items: [
           {
