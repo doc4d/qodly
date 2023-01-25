@@ -63,10 +63,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Qodly docs',
+        title: 'Doc Center',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/qodly-logo.png',
+          alt: 'Qodly',
+          src: 'img/qodly-logo-dark.svg',
+		  srcDark: 'img/qodly-logo-white.svg',
         },
         items: [
           {
