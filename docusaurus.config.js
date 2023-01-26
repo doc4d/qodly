@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Qodly Developer',
+  title: 'Qodly Developer Center',
   tagline: 'Welcome to the Qodly Documentation',
   url: "https://doc4d.github.io",
   baseUrl: '/qodly/',
@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Doc Center',
+        title: 'Docs',
         logo: {
           alt: 'Qodly',
           src: 'img/qodly-logo-dark.svg',
@@ -72,9 +72,27 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
+          },
+		  {
+            type: 'doc',
+            docId: 'design-webforms/create-webform',
+            position: 'left',
+            label: 'Development',
+          },
+		  {
+            type: 'doc',
+            docId: 'deploy/get-started',
+            position: 'left',
+            label: 'Deployment',
+          },
+		  {
+            type: 'doc',
+            docId: 'cloud/tools',
+            position: 'left',
+            label: 'Cloud Admin',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
